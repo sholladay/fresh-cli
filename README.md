@@ -4,9 +4,12 @@
 
 ## Why?
 
- - Cross platform support.
+ - Cross-platform support.
+ - Works from any directory.
  - More reliable than `npm update`.
- - Useful as a shortcut to reduce typing.
+ - Includes nested dependencies, too.
+ - Quick to type and easy to use.
+ - Removes safely (cannot `rm -rf /`).
 
 [npm](https://github.com/npm/npm) does a much better job creating a dependency tree from scratch than modifying an existing one without breaking anything. By reinstalling `node_modules`, you put yourself in a more well-known, consistent state.
 
