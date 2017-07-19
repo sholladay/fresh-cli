@@ -1,0 +1,71 @@
+{
+    "name": "fresh-cli",
+    "version": "0.0.0",
+    "description": "Remove and reinstall your dependencies.",
+    "homepage": "https://github.com/sholladay/fresh-cli",
+    "main": "index.js",
+    "author": {
+        "name": "Seth Holladay",
+        "url": "http://seth-holladay.com",
+        "email": "me@seth-holladay.com"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sholladay/fresh-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sholladay/fresh-cli/issues",
+        "email": "me@seth-holladay.com"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "license": "MPL-2.0",
+    "bin": {
+        "fresh": "cli.js"
+    },
+    "files": [
+        "index.js",
+        "cli.js"
+    ],
+    "dependencies": {
+        "del": "^3.0.0",
+        "meow": "^3.7.0",
+        "pkg-dir": "^2.0.0"
+    },
+    "devDependencies": {
+        "ava": "^0.21.0",
+        "eslint-config-tidy": "^0.4.0",
+        "mkdirtemp": "^1.1.0",
+        "read-pkg": "^2.0.0",
+        "write-pkg": "^3.1.0",
+        "xo": "^0.18.0"
+    },
+    "keywords": [
+        "cli-app",
+        "cli",
+        "rm",
+        "remove",
+        "clean",
+        "install",
+        "reinstall",
+        "latest",
+        "node-modules",
+        "modules",
+        "deps",
+        "dependency",
+        "dependencies",
+        "package-lock",
+        "lockfile",
+        "safe",
+        "reliable",
+        "deterministic",
+        "reproducible"
+    ],
+    "xo": {
+        "extend": "tidy"
+    }
+}
