@@ -2,6 +2,7 @@
 
 'use strict';
 
+const ora = require('ora');
 const meow = require('meow');
 const fresh = require('.');
 
@@ -14,4 +15,16 @@ const cli = meow(`
       $ fresh my-project
 `);
 
-fresh(cli.input[0]);
+const spinner = ora({
+    text : 'Removing and reinstalling dependencies'
+});
+spinner.start();
+fresh(cli.input[0]).then(
+    () => {
+        spinner.succeed('Installed dependencies');
+    },
+    (err) => {
+        spinner.fail(err.message);
+        process.exit(1);
+    }
+);
