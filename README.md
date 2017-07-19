@@ -29,10 +29,11 @@ npm install fresh-cli --global
 $ fresh --help
 
   Usage
-    $ fresh
+    $ fresh [cwd]
 
   Example
-    $ cd my-project && fresh
+    $ fresh
+    $ fresh my-project
 ```
 
 ## Contributing
