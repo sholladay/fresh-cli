@@ -1,6 +1,6 @@
 {
     "name": "fresh-cli",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Remove and reinstall your dependencies.",
     "homepage": "https://github.com/sholladay/fresh-cli",
     "main": "index.js",
