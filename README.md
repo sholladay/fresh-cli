@@ -1,4 +1,4 @@
-# fresh-cli [![Build status for fresh-cli on Circle CI.](https://img.shields.io/circleci/project/sholladay/fresh-cli/master.svg "Circle Build Status")](https://circleci.com/gh/sholladay/fresh-cli "Fresh CLI Builds")
+# fresh-cli [![Build status for Fresh CLI](https://img.shields.io/circleci/project/sholladay/fresh-cli/master.svg "Build Status")](https://circleci.com/gh/sholladay/fresh-cli "Builds") [![Build status for Fresh CLI on Windows](https://ci.appveyor.com/api/projects/status/ll2n2qydyaeygiju/branch/master?svg=true "Windows Build Status")](https://ci.appveyor.com/project/sholladay/fresh-cli "Windows Builds")
 
 > Remove and reinstall your dependencies.
 
