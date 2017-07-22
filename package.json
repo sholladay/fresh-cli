@@ -6,7 +6,7 @@
     "main": "index.js",
     "author": {
         "name": "Seth Holladay",
-        "url": "http://seth-holladay.com",
+        "url": "https://seth-holladay.com",
         "email": "me@seth-holladay.com"
     },
     "scripts": {
@@ -39,7 +39,7 @@
     },
     "devDependencies": {
         "ava": "^0.21.0",
-        "eslint-config-tidy": "^0.4.0",
+        "eslint-config-tidy": "^0.5.0",
         "mkdirtemp": "^1.1.0",
         "read-pkg": "^2.0.0",
         "write-pkg": "^3.1.0",

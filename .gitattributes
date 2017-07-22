@@ -37,18 +37,14 @@ CONTRIBUTORS  text
 # Leave line endings alone for these...
 
 # Multimedia and compressed storage.
-*.png   binary
-*.jpg   binary
-*.jpeg  binary
-*.gif   binary
-*.ico   binary
-*.mov   binary
-*.mp4   binary
-*.mp3   binary
-*.flv   binary
-*.fla   binary
-*.swf   binary
-*.gz    binary
-*.zip   binary
-*.7z    binary
-*.ttf   binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.mov    binary
+*.mp4    binary
+*.mp3    binary
+*.gz     binary
+*.zip    binary
+*.woff2  binary

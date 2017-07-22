@@ -51,6 +51,6 @@ See our [contributing guidelines](https://github.com/sholladay/fresh-cli/blob/ma
 
 ## License
 
-[MPL-2.0](https://github.com/sholladay/fresh-cli/blob/master/LICENSE "The license for fresh-cli.") © [Seth Holladay](http://seth-holladay.com "Author of fresh-cli.")
+[MPL-2.0](https://github.com/sholladay/fresh-cli/blob/master/LICENSE "The license for fresh-cli.") © [Seth Holladay](https://seth-holladay.com "Author of fresh-cli.")
 
 Go make something, dang it.
