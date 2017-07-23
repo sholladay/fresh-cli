@@ -9,7 +9,7 @@ import mkdirtemp from 'mkdirtemp';
 import fresh from '.';
 
 const readdir = util.promisify(fs.readdir);
-const execFile = util.promisify(childProcess.execFile);
+const exec = util.promisify(childProcess.exec);
 
 test('fresh() updates dependencies', async (t) => {
     const oldVersion = '0.1.0';
@@ -20,7 +20,7 @@ test('fresh() updates dependencies', async (t) => {
             'build-path' : oldVersion
         }
     });
-    await execFile('npm', ['install'], {
+    await exec('npm install', {
         cwd : dir
     });
 

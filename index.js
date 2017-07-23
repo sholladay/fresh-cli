@@ -5,7 +5,7 @@ const childProcess = require('child_process');
 const pkgDir = require('pkg-dir');
 const del = require('del');
 
-const execFile = util.promisify(childProcess.execFile);
+const exec = util.promisify(childProcess.exec);
 
 const fresh = async (cwd) => {
     const dir = await pkgDir(cwd);
@@ -15,7 +15,7 @@ const fresh = async (cwd) => {
     await del(['package-lock.json', 'node_modules'], {
         cwd : dir
     });
-    await execFile('npm', ['install'], {
+    await exec('npm install', {
         cwd : dir
     });
 };
