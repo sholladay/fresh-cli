@@ -7,6 +7,8 @@ const del = require('del');
 
 const exec = util.promisify(childProcess.exec);
 
+const tenMegabytes = 1000 * 1000 * 10;
+
 const fresh = async (cwd) => {
     const dir = await pkgDir(cwd);
     if (!dir) {
@@ -16,7 +18,8 @@ const fresh = async (cwd) => {
         cwd : dir
     });
     await exec('npm install', {
-        cwd : dir
+        cwd       : dir,
+        maxBuffer : tenMegabytes
     });
 };
 
