@@ -68,6 +68,17 @@
         "reproducible"
     ],
     "xo": {
-        "extend": "tidy"
+        "extend": "tidy",
+        "overrides": [
+            {
+                "files": "index.js",
+                "rules": {
+                    "id-match": [
+                        "error",
+                        "^[a-zA-Z_$][a-zA-Z\\d_]*$"
+                    ]
+                }
+            }
+]
     }
 }
